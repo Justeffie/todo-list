@@ -2,6 +2,7 @@ import React from 'react';
 
 import './List.css';
 import Item from '../Item/Item';
+import Wrapper from "../Wrapper/Wrapper";
 
 const List = (props) => {
 
@@ -10,7 +11,7 @@ const List = (props) => {
     });
 
     return (
-        <div>
+        <Wrapper>
             <section>
                 <div className="ul_container">
                     <ul>
@@ -18,7 +19,7 @@ const List = (props) => {
                     </ul>
                 </div>
             </section>
-        </div>
+        </Wrapper>
     );
 };
 
